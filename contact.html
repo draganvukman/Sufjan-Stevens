@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="icon" href="imgs/favicon.ico" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="section-book">
+      <div class="container">
+        <div class="header__logo-box">
+          <p class="header__logo">
+            Sufjan
+            <span>Stevens</span>
+          </p>
+        </div>
+
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+          <div class="navigation__background">&nbsp;</div>
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link"
+                  ><span>01</span>Home</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./about.html" class="navigation__link"
+                  ><span>02</span>About</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./albums.html" class="navigation__link"
+                  ><span>03</span>Albums</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./contact.html" class="navigation__link"
+                  ><span>04</span>Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Get in touch</h2>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    name="name"
+                  />
+                  <small>Error message</small>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    name="email"
+                  />
+                  <small>Error message</small>
+                </div>
+                <div class="form__group u-margin-bottom-medium">
+                  <textarea
+                    class="form__input cta__message"
+                    name="text"
+                    rows="3"
+                    cols="20"
+                    placeholder="Your message"
+                    id="message"
+                  ></textarea>
+                  <small>Error message</small>
+                </div>
+                <div class="form__group">
+                  <button class="btn btn-submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link-nav" href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./albums.html">Albums</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./about.html">About</a>
+            </li>
+          </ul>
+
+          <p class="header__logo">
+            Sufjan
+            <span>Stevens</span>
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.facebook.com/SufjanStevens001/"
+              >
+                <i class="social-icon fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.instagram.com/sufjan/?hl=en"
+              >
+                <i class="social-icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="footer-link" href="#">
+                <i class="social-icon fa-brands fa-x-twitter"></i>
+              </a>
+            </li> -->
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.youtube.com/@SufjanStevensOfficial/videos"
+              >
+                <i class="social-icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright-box">
+        <p class="copyright">
+          Copyright &copy; <span class="year">2024</span>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

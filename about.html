@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="icon" href="imgs/favicon.ico" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>About</title>
+  </head>
+  <body>
+    <section class="section-about">
+      <div class="header__logo-box">
+        <p class="header__logo">
+          Sufjan
+          <span>Stevens</span>
+        </p>
+      </div>
+
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link"
+                ><span>01</span>Home</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./about.html" class="navigation__link"
+                ><span>02</span>About</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./albums.html" class="navigation__link"
+                ><span>03</span>Albums</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./contact.html" class="navigation__link"
+                ><span>04</span>Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div class="container-inner">
+          <div class="about-text-box">
+            <div class="heading-about-box">
+              <h2 class="heading-about">About Sufjan Stevens</h2>
+            </div>
+
+            <p class="about-text">
+              Sufjan Stevens is an American singer-songwriter and
+              multi-instrumentalist known for his eclectic musical style and
+              deeply personal lyrics. With a career spanning over two decades,
+              Stevens has garnered critical acclaim for his ability to blend
+              folk, indie rock, and orchestral elements, creating a unique sound
+              that resonates with audiences worldwide. His albums, such as
+              "Illinois" and "Carrie & Lowell," showcase his storytelling
+              prowess, exploring themes of love, loss, and identity.
+            </p>
+
+            <button class="btn btn-about">Read more</button>
+
+            <div class="modal hidden">
+              <button class="close-modal">&times;</button>
+              <h2 class="heading-secondary">About Sufjan Stevens</h2>
+              <p>
+                Sufjan Stevens is an American singer-songwriter and
+                multi-instrumentalist known for his eclectic musical style and
+                deeply personal lyrics. With a career spanning over two decades,
+                Stevens has garnered critical acclaim for his ability to blend
+                folk, indie rock, and orchestral elements, creating a unique
+                sound that resonates with audiences worldwide. His albums, such
+                as "Illinois" and "Carrie & Lowell," showcase his storytelling
+                prowess, exploring themes of love, loss, and identity. <br />
+                In addition to his solo work, Sufjan Stevens has contributed to
+                various collaborative projects and film soundtracks, showcasing
+                his versatility as an artist. He has worked with artists like
+                Bryce Dessner, Nico Muhly, and James McAlister on the album
+                "Planetarium," inspired by the solar system. Stevens has also
+                earned acclaim for his contributions to the soundtrack of the
+                film "Call Me By Your Name," with the song "Mystery of Love"
+                receiving an Academy Award nomination.
+              </p>
+            </div>
+            <div class="overlay hidden"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about-events">
+      <div class="container">
+        <div class="heading-secondary-box">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            On the Road: Upcoming Concert Tours
+          </h2>
+        </div>
+        <button class="btn btn-card-left">
+          <i class="fa-solid fa-circle-chevron-left"></i>
+        </button>
+        <button class="btn btn-card-right">
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+
+        <article class="about-card">
+          <div class="about-card-container">
+            <div class="card-img-box">
+              <img src="./imgs/event-1.jpg" alt="image" class="card-img" />
+            </div>
+
+            <div class="card-text-box">
+              <p class="card-date">September 4, 2024</p>
+              <h4 class="card-heading">Rhythm Fest</h4>
+              <div class="card-location">
+                <i class="card-icon fa-solid fa-location-dot"></i>
+                <p class="location-text">New York City, USA</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-youtube-feeds">
+      <div class="heading-secondary-box">
+        <h2 class="heading-secondary u-margin-bottom-medium">Youtube Feeds</h2>
+      </div>
+      <div class="feed-container">
+        <div class="container">
+          <div class="grid grid--3-cols grid--2-gap">
+            <!-- single item -->
+            <article class="album-item">
+              <div class="album-img-box">
+                <img src="./imgs/img4.jpg" alt="album" class="album-img" />
+                <a
+                  href="https://www.youtube.com/watch?v=7q6EHqYM2Zw"
+                  target="_blank"
+                  class="play-link"
+                >
+                  <i class="play-btn fa-solid fa-circle-play"></i>
+                </a>
+              </div>
+
+              <div class="album-info">
+                <header>
+                  <h4 class="card-heading">Goodbye Evergreen</h4>
+                </header>
+                <div class="album-text-box">
+                  <p class="album-duration">3 : 35</p>
+                  <div class="line">&nbsp;</div>
+                  <p class="album-date">Oct 6, 2023</p>
+                </div>
+              </div>
+            </article>
+            <!-- end of single item -->
+            <!-- single item -->
+            <article class="album-item">
+              <div class="album-img-box">
+                <img src="./imgs/img2.jpg" alt="album" class="album-img" />
+                <a
+                  href="https://www.youtube.com/watch?v=GoFJbrNkyBw"
+                  target="_blank"
+                  class="play-link"
+                >
+                  <i class="play-btn fa-solid fa-circle-play"></i>
+                </a>
+              </div>
+
+              <div class="album-info">
+                <header>
+                  <h4 class="card-heading">A Running Start</h4>
+                </header>
+                <div class="album-text-box">
+                  <p class="album-duration">4 : 21</p>
+                  <div class="line">&nbsp;</div>
+                  <p class="album-date">October 6, 2023</p>
+                </div>
+              </div>
+            </article>
+            <!-- end of single item -->
+
+            <!-- single item -->
+            <article class="album-item">
+              <div class="album-img-box">
+                <img src="./imgs/img3.jpg" alt="album" class="album-img" />
+                <a
+                  href="https://www.youtube.com/watch?v=JjRSCm67bL4"
+                  target="_blank"
+                  class="play-link"
+                >
+                  <i class="play-btn fa-solid fa-circle-play"></i>
+                </a>
+              </div>
+
+              <div class="album-info">
+                <header>
+                  <h4 class="card-heading">Run Away With Me</h4>
+                </header>
+                <div class="album-text-box">
+                  <p class="album-duration">4 : 01</p>
+                  <div class="line">&nbsp;</div>
+                  <p class="album-date">Sep 25, 2020</p>
+                </div>
+              </div>
+            </article>
+            <!-- end of single item -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link-nav" href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./albums.html">Albums</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./about.html">About</a>
+            </li>
+          </ul>
+
+          <p class="header__logo">
+            Sufjan
+            <span>Stevens</span>
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.facebook.com/SufjanStevens001/"
+              >
+                <i class="social-icon fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.instagram.com/sufjan/?hl=en"
+              >
+                <i class="social-icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="footer-link" href="#">
+                <i class="social-icon fa-brands fa-x-twitter"></i>
+              </a>
+            </li> -->
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.youtube.com/@SufjanStevensOfficial/videos"
+              >
+                <i class="social-icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright-box">
+        <p class="copyright">
+          Copyright &copy; <span class="year">2024</span>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="icon" href="imgs/favicon.ico" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="section-hero">
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link"
+                ><span>01</span>Home</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./about.html" class="navigation__link"
+                ><span>02</span>About</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./albums.html" class="navigation__link"
+                ><span>03</span>Albums</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="./contact.html" class="navigation__link"
+                ><span>04</span>Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="header__logo-box">
+          <p class="header__logo">
+            Sufjan
+            <span>Stevens</span>
+          </p>
+        </div>
+        <div class="header__text-box">
+          <h5 class="sub-heading">New Song</h5>
+          <h1 class="heading-primary">To Be Alone With You</h1>
+          <p class="header-text">
+            Unleash the power of sound, embrace the harmony, and let the
+            melodies guide you. Discover the ultimate beats, dive into rhythm,
+            and feel the music elevate your soul.
+          </p>
+
+          <a
+            href="https://www.youtube.com/watch?v=N3zu9NucyBg"
+            target="_blank"
+            class="play-btn-home"
+          >
+            <i class="play-home-icon fa-solid fa-circle-play"></i>
+          </a>
+        </div>
+      </header>
+    </section>
+
+    <section class="section-events">
+      <div class="container">
+        <div class="heading-secondary-box">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Discover the Beats
+          </h2>
+        </div>
+
+        <div class="grid grid--3-cols grid--1-gap">
+          <article class="about-card">
+            <div class="about-card-container">
+              <div class="home-card-img-box">
+                <img
+                  src="./imgs/scroll-1.jpg.webp"
+                  alt="image"
+                  class="home-card-img"
+                />
+              </div>
+
+              <div class="home-card-text-box">
+                <p class="home-card-date">September 4, 2024</p>
+                <h4 class="home-card-heading">Rhythm Fest</h4>
+                <div class="home-card-location">
+                  <i class="card-icon fa-solid fa-location-dot"></i>
+                  <p class="home-location-text">New York City, USA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="about-card">
+            <div class="about-card-container">
+              <div class="home-card-img-box">
+                <img
+                  src="./imgs/scroll-2.jpg.webp"
+                  alt="image"
+                  class="home-card-img"
+                />
+              </div>
+
+              <div class="home-card-text-box">
+                <p class="home-card-date">November 15, 2024</p>
+                <h4 class="home-card-heading">Pop Fiesta</h4>
+                <div class="home-card-location">
+                  <i class="card-icon fa-solid fa-location-dot"></i>
+                  <p class="home-location-text">Miami, USA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="about-card">
+            <div class="about-card-container">
+              <div class="home-card-img-box">
+                <img
+                  src="./imgs/scroll-3.jpg.webp"
+                  alt="image"
+                  class="home-card-img"
+                />
+              </div>
+
+              <div class="home-card-text-box">
+                <p class="home-card-date">December 20, 2024</p>
+                <h4 class="home-card-heading">Rock Carnival</h4>
+                <div class="home-card-location">
+                  <i class="card-icon fa-solid fa-location-dot"></i>
+                  <p class="home-location-text">Los Angeles, USA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-releases">
+      <div class="container">
+        <div class="grid grid--2-cols grid--2-gap">
+          <div class="about-img-box">
+            <img src="./imgs/img-girl.webp" alt="image" class="about-img" />
+          </div>
+          <div class="about-text-box">
+            <div class="heading-about-box">
+              <h2 class="heading-secondary">Latest Releases</h2>
+            </div>
+
+            <p class="about-text">
+              Sufjan Stevens' latest releases, including tracks from "A
+              Beginner's Mind" and "Convocations," showcase his signature blend
+              of emotive storytelling and intricate musical compositions. Dive
+              into the mesmerizing soundscapes and discover the depth of his
+              latest works.
+            </p>
+
+            <a
+              href="https://www.youtube.com/@SufjanStevensOfficial/videos"
+              target="_blank"
+              class="btn btn-releases"
+              >Watch Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-audio-track">
+      <div class="heading-secondary-box">
+        <h2 class="heading-secondary u-margin-bottom-medium">Latest Tracks</h2>
+      </div>
+
+      <div class="section-audio">
+        <div class="music-container">
+          <div class="music-body">
+            <div class="layer">
+              <div class="volume-slider">
+                <span class="bar"></span>
+                <input
+                  type="range"
+                  min="0.01"
+                  max="1"
+                  value="1"
+                  step="0.01"
+                  class="volumerange"
+                />
+              </div>
+            </div>
+            <div class="top-icons">
+              <button class="volume btn" id="volume">
+                <i id="volumeicon" class="fas fa-volume-up"></i>
+              </button>
+              <button class="list btn" id="list">
+                <i class="fas fa-list"></i>
+              </button>
+            </div>
+            <div class="music-img">
+              <img
+                src="https://images.genius.com/ee202c6f724ffd4cf61bd01a205eeb47.1000x1000x1.jpg"
+                alt="song-images"
+                id="img"
+              />
+            </div>
+            <div class="music-info">
+              <h2 id="title">So You Are Tired</h2>
+            </div>
+            <audio src="./music/Sufjan Stevens 2.mp3" id="audio"></audio>
+            <div class="music-progress">
+              <div class="progress-bar">
+                <span class="progress-line"></span>
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="0"
+                  class="progress"
+                  id="progress"
+                />
+              </div>
+              <div class="duration2">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">00:00</span>
+              </div>
+            </div>
+            <div class="music-controls">
+              <button class="repeat btn2" id="repeat">
+                <i class="fas fa-redo-alt"></i>
+              </button>
+              <div class="main-controls">
+                <button class="prevbtn" id="prevbtn">
+                  <i class="fas fa-backward"></i>
+                </button>
+                <button class="playpause" id="playpause">
+                  <i id="playpause-btn" class="fas fa-play"></i>
+                </button>
+                <button class="nextbtn" id="nextbtn">
+                  <i class="fas fa-forward"></i>
+                </button>
+              </div>
+              <button class="like btn2" id="like">
+                <i id="likeicon" class="far fa-heart"></i>
+              </button>
+            </div>
+            <div class="songs-list" id="songs-list">
+              <button class="list-close btn2" id="listclose">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link-nav" href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./albums.html">Albums</a>
+            </li>
+            <li>
+              <a class="footer-link-nav" href="./about.html">About</a>
+            </li>
+          </ul>
+
+          <p class="header__logo">
+            Sufjan
+            <span>Stevens</span>
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.facebook.com/SufjanStevens001/"
+              >
+                <i class="social-icon fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.instagram.com/sufjan/?hl=en"
+              >
+                <i class="social-icon fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="footer-link" href="#">
+                <i class="social-icon fa-brands fa-x-twitter"></i>
+              </a>
+            </li> -->
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.youtube.com/@SufjanStevensOfficial/videos"
+              >
+                <i class="social-icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright-box">
+        <p class="copyright">
+          Copyright &copy; <span class="year">2024</span>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
